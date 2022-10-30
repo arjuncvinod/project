@@ -1,0 +1,90 @@
+:root {
+    --ui-color1:rgb(201, 89, 14);
+    --blue:rgb(30, 144, 255);
+    --font-color:rgb(24, 120, 255);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+#result-page{
+    background-color:;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-container{
+    margin-top:4.5%;
+    height: 70%;
+    width: 60%;
+    background-color:rgba(255, 255, 255, 0.425);
+    border-radius:20px;
+    box-shadow: 0 0 1px rgb(95, 94, 94);
+}
+.result-container h3{
+    text-align: center;
+    margin: 3%;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.94);
+}
+.semester-selection{
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    padding: 1% 0%;
+    width: 80%;
+}
+.semester-selection p{
+    font-size: 1.5rem; 
+
+}
+#semester{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    transform: translateY(-1px);
+    color: var(--font-color);
+}
+.result-table-container{
+    height: 60%;
+    background-color: white;
+    width: 80%;
+    margin:3% auto;
+    border-radius: 20px;
+    padding: 2px;
+}
+.result-table{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+.result-table td , th{
+    overflow: hidden;
+}
+.sub{
+    width: 50%;
+    text-align:start;
+    padding-left:10%;
+}
+.result-table th{
+    background-color: rgba(149, 140, 140, 0.125);
+    margin: 1%;
+}
+.col-text-box{
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+}
