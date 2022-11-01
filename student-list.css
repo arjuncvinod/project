@@ -39,13 +39,14 @@ body{
     border-radius: 5px;
     color: #ffffff;
     font-size: 1rem;
+    cursor: pointer;
 }
-/* .save-btn-container input:hover{
+.add-btn:hover{
  background-color:#14a02b;   
 }
-.save-btn-container input:active{
+.add-btn:active{
     background-color:#117b22; 
-} */
+}
 .student-grid-container{
     height: auto;
     display: flex;
